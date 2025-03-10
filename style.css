@@ -1,183 +1,30 @@
 html{
     scroll-behavior: smooth;
+
 }
-body{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+.navbar-brand img {
+    height: 50px;
+  }
+  
+  .banner img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .nav-link:hover{
+    text-shadow: 0px 0px 10px red;
+  }
+  footer a {
     text-decoration: none;
-}
-img, svg {
-    vertical-align: middle;
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    /* paddingleft: 30px; */
-}
-.navbar ul a{
-    text-decoration: none;
-    cursor: pointer;
-    display: flex;
-    /* justify-content: space-around; */
-    /* gap: 10px; */
-}
-.navbar ul a:hover{
-
-  color:orangered;
-  border-bottom: 3px solid orangered;
-}
-.banner img{
-    /* border: 1px solid black; */
-    width: 100%;
-    height: 100vh;
-    display: inline;
-    position: relative;
-    margin-top: 10px;
-    border-radius: 0px;
-
-}
-#imgaetext{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    /* color: white; Adjust text color */
-    font-size: 24px;
-    font-weight: bold;
-    /* background: rgba(0, 0, 0, 0.5); Optional: Adds a semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
-}
-#reservebtn{
-    border-radius: 30px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    border: 2px solid red;
-    background-color: white;
-    padding: 5px;
-    font-size: 13px;
-    color: black;
-
-
-}
-#reservebtn:hover{
-    background-color: black;
-    color: white;
-}
-.fee{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-left: 30%;
-}
-#meetdate{
-    border: 5px solid black;
-    padding: 10px;    
-    width: fit-content;
-    display: inline-flex;
-    font-size: 30px;
-    margin-top: 50px;
-}
-#fees{
-    border: 5px solid black;
-    padding: 10px;
-    width: fit-content;
-    display: inline-flex;
-    font-size: 30px;
-    margin-top: 50px;
-
-}
-#faculty{
-    margin-top: 100px;
-    display: block;
-    justify-content: center;
-    background-color: skyblue;
-    padding: 100px;
-
-}
-#faculty li{
-    text-align: center;
-}
-#faculty img{
-    margin-left: 200px;
-}
-#Curriculam{
-    margin-top: 100px;
-    text-align: center;
-    display: flex;
-    gap: 100px;
-    font-size: 20px;
-}
-#Curriculam h1{
-    text-align: center;
-}
-.sessions{
-    margin-top: 100px;
-}
-#get{
-    background-color: skyblue;
-    margin-top: 100px;
-}
-#get h1{
-    /* margin-left: 500px; */
-    display: block;
-    text-align: center;
-}
-#get #benifit{
-    margin-top: 100px;
-    /* text-align: center; */
-    margin-left: 500px;
-    display: flex;
-    gap: 400px;
-}
-#reserve h1{
-    text-align: center;
-    margin-top: 100px;
-    
-}
-#reserve hr.newline{
-    width: 500px;
-    border: 1px solid black;
-    margin-left: 35%;
-    margin-top: 100px;
-    
-}
-#reserve p{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-#footer{
-    background-color: rgb(71, 71, 71);
-    display: flex;
-    justify-content:space-around;
-    padding: 20px;
-
-}
-#footer li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-}
-#footer li{
-    list-style: none;
-}
-
-@media only screen and (max-width: 600px) {
-
-    #imgaetext{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    /* color: white; Adjust text color */
-    font-size: 12px;
-    font-weight: bold;
-    /* background: rgba(0, 0, 0, 0.5); Optional: Adds a semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .banner img {
+      max-height: 250px;
     }
-}
+  }
+  
